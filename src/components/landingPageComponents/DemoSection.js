@@ -4,7 +4,7 @@ function DemoSection() {
     return (
         <section className='bg-white/80 py-20'>
             <div className="w-[90%] sm:max-w-2xl lg:max-w-3xl mx-auto flex flex-col items-center text-gray-700">
-                <h1 className='font-bold text-3xl text-center'>Hey there, it's <a href='#' target="_blank" rel="noopener noreferrer" className='hover:underline hover:underline-offset-2'>Name</a>👋🏼</h1>
+                <h1 className='font-bold text-3xl text-center'>Hey there, it's <a href='https://x.com/HairunHuang' target="_blank" rel="noopener noreferrer" className='hover:underline hover:underline-offset-2'>Name</a>👋🏼</h1>
                 <img src="/users/user-1.png" alt="user" className="inline-block pointer-events-none h-24 w-24 rounded-full my-10" />
                 <p className='max-w-prose w-fit text-center font-semibold leading-relaxed'>
                     <span className='font-bold'>Your story goes here</span> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam optio omnis animi voluptatem modi! Distinctio dolorum ad aliquam temporibus quo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, facere.
