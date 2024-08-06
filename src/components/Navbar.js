@@ -32,6 +32,7 @@ async function Navbar() {
                         </div>
                     </div>
 
+                    {/* TODO: Add mobile menu */}
                     <div className='md:hidden'>
                         <Menu className='h-6 w-6 cursor-pointer' />
                     </div>
