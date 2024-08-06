@@ -5,14 +5,14 @@ import FinalPush from './landingPageComponents/FinalPush';
 import PricingSection from './landingPageComponents/PricingSection';
 import DemoSection from './landingPageComponents/DemoSection';
 import FeatureDisplay from './landingPageComponents/FeatureDisplay';
-import WithWithout from './landingPageComponents/WithWithout';
 import HeroSection from './landingPageComponents/HeroSection';
+import BeforeAfter from './landingPageComponents/WithWithout';
 
 function LandingPage() {
     return (
         <>
             <HeroSection />
-            <WithWithout />
+            <BeforeAfter />
             <FeatureDisplay />
             <DemoSection />
             <PricingSection />

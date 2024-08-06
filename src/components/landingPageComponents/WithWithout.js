@@ -2,7 +2,7 @@ import React from 'react'
 import MaxWidthWrapper from '../MaxWidthWrapper'
 import { Check, Star, X } from 'lucide-react';
 
-function WithWithout() {
+function BeforeAfter() {
     return (
         <section className='bg-white/80'>
             <MaxWidthWrapper className='pb-10 pt-20'>
@@ -99,4 +99,4 @@ function WithWithout() {
     )
 }
 
-export default WithWithout
+export default BeforeAfter
