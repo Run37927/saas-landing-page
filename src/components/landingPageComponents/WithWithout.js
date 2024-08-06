@@ -22,8 +22,8 @@ function WithWithout() {
                     </div>
                 </div>
 
-                <div className="flex flex-col lg:flex-row lg:max-w-4xl lg:mx-auto items-center justify-center gap-14 my-16">
-                    <div className='flex sm:flex-1 flex-col items-center bg-primary-foreground rounded-2xl shadow-md py-12'>
+                <div className="flex flex-col gap-10 lg:flex-row lg:max-w-4xl lg:mx-auto items-center justify-center lg:gap-14 my-16">
+                    <div className='flex w-full sm:flex-1 flex-col items-center bg-primary-foreground rounded-2xl shadow-md py-12'>
                         <ul className="text-left font-medium flex flex-col items-center sm:items-start">
                             <div className="space-y-2 tracking-wide text-xl">
                                 <h3 className='font-bold'>Before</h3>
@@ -46,29 +46,28 @@ function WithWithout() {
                                 </li>
                             </div>
                         </ul>
-
                     </div>
 
-                    <div className='flex sm:flex-1 flex-col items-center bg-primary/10 rounded-2xl shadow-md py-12'>
+                    <div className='flex w-full sm:flex-1 flex-col items-center bg-primary/10 rounded-2xl shadow-md py-12'>
                         <ul className="text-left font-medium flex flex-col items-center sm:items-start">
                             <div className="space-y-2 tracking-wide text-xl">
                                 <h3 className='font-bold'>After</h3>
 
                                 <li className="flex gap-1.5 items-center text-left">
                                     <Check className="h-4 w-4 shrink-0 text-green-600" />
-                                    good good good good good good
+                                    good good good good good
                                 </li>
                                 <li className="flex gap-1.5 items-center text-left">
                                     <Check className="h-4 w-4 shrink-0 text-green-600" />
-                                    good good good good good good
+                                    good good good good good
                                 </li>
                                 <li className="flex gap-1.5 items-center text-left">
                                     <Check className="h-4 w-4 shrink-0 text-green-600" />
-                                    good good good good good good
+                                    good good good good good
                                 </li>
                                 <li className="flex gap-1.5 items-center text-left">
                                     <Check className="h-4 w-4 shrink-0 text-green-600" />
-                                    good good good good good good
+                                    good good good good good
                                 </li>
                             </div>
                         </ul>
