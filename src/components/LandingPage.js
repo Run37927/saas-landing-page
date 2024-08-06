@@ -6,7 +6,7 @@ import PricingSection from './landingPageComponents/PricingSection';
 import DemoSection from './landingPageComponents/DemoSection';
 import FeatureDisplay from './landingPageComponents/FeatureDisplay';
 import HeroSection from './landingPageComponents/HeroSection';
-import BeforeAfter from './landingPageComponents/WithWithout';
+import BeforeAfter from './landingPageComponents/BeforeAfter';
 
 function LandingPage() {
     return (
