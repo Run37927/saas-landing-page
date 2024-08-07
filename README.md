@@ -19,7 +19,7 @@ The main components of the landing page are:
 
 To run this project locally:
 
-1. Clone the repository
+1. Click on the green button top right corner `Use this template`
 2. Install dependencies with `npm install`
 3. Start the development server with `npm run dev`
 4. Open `localhost:3000`
