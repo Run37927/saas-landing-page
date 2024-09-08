@@ -1,4 +1,4 @@
-# SaaS Landing Page (https://saas-landing-page-pied-seven.vercel.app/)
+# https://saas-landing-page-pied-seven.vercel.app
 
 This project is a SaaS landing page template written in Next.js
 
