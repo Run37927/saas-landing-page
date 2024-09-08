@@ -12,6 +12,8 @@ The main components of the landing page are:
 - DemoSection
 - PricingSection
 - FaqSection
+- AsSeenMarquee
+- Testimonials
 - FinalPush
 - Footer
 
