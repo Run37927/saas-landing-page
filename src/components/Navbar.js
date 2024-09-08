@@ -1,12 +1,10 @@
-import React from 'react'
 import Link from "next/link"
 import MaxWidthWrapper from "./MaxWidthWrapper"
 import { ArrowRight, Menu } from 'lucide-react'
 import { buttonVariants } from './ui/button'
 import { cn } from '@/lib/utils'
 
-async function Navbar() {
-
+function Navbar() {
     return (
         <nav className="sticky h-20 inset-x-0 top-0 z-30 w-full border-b border-gray-200 bg-white/75 backdrop-blur-sm transition-all">
             <MaxWidthWrapper>

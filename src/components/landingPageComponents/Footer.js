@@ -1,6 +1,4 @@
-import React from 'react'
 import MaxWidthWrapper from '../MaxWidthWrapper'
-import Image from 'next/image'
 import Link from 'next/link'
 
 function Footer() {

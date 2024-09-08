@@ -1,4 +1,3 @@
-import React from 'react'
 import FaqSection from './landingPageComponents/FaqSection';
 import Footer from './landingPageComponents/Footer';
 import FinalPush from './landingPageComponents/FinalPush';

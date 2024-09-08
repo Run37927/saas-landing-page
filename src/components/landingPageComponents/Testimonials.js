@@ -23,7 +23,8 @@ const tweets = [
     {
         id: '1828089354713215171'
     }
-]
+];
+
 function Testimonials() {
     return (
         <MaxWidthWrapper>

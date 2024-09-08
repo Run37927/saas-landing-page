@@ -1,4 +1,3 @@
-import React from 'react'
 import MaxWidthWrapper from '../MaxWidthWrapper'
 import { ArrowRight, Check, Star } from 'lucide-react';
 import Link from 'next/link';

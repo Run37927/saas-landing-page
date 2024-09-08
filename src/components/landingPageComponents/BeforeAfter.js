@@ -1,4 +1,3 @@
-import React from 'react'
 import MaxWidthWrapper from '../MaxWidthWrapper'
 import { Check, Star, X } from 'lucide-react';
 

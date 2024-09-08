@@ -1,4 +1,3 @@
-import React from 'react'
 import { InfiniteSlider } from '@/components/ui/infinite-slider';
 
 function AsSeenOn() {
