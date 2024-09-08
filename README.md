@@ -1,7 +1,7 @@
-Preview [LINK](https://saas-landing-page-pied-seven.vercel.app)
+# Preview [LINK](https://saas-landing-page-pied-seven.vercel.app)
 
 ![Project demo](/public/demo.gif)
-This project is a SaaS landing page template written in Next.js
+
 
 ## Project Structure
 
