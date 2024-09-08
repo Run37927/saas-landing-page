@@ -24,7 +24,7 @@ function DemoSection() {
                 </div>
 
                 <div className='font-medium text-center text-2xl text-gray-600 hover:text-gray-800 cursor-pointer'>
-                    Lorem ipsum dolor sit amet
+                    Try it now
                 </div>
             </div>
         </section>

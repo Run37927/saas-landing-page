@@ -8,6 +8,7 @@ import FeatureDisplay from './landingPageComponents/FeatureDisplay';
 import HeroSection from './landingPageComponents/HeroSection';
 import BeforeAfter from './landingPageComponents/BeforeAfter';
 import Testimonials from './landingPageComponents/Testimonials';
+import AsSeenOn from './landingPageComponents/AsSeenOn';
 
 function LandingPage() {
     return (
@@ -18,6 +19,7 @@ function LandingPage() {
             <DemoSection />
             <PricingSection />
             <FaqSection />
+            <AsSeenOn />
             <Testimonials />
             <FinalPush />
             <Footer />
