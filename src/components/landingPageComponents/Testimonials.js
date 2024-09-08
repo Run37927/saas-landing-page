@@ -35,16 +35,18 @@ function Testimonials() {
 
             <ul className='mx-auto md:columns-2 lg:columns-3 space-y-4 md:space-y-6 md:gap-6'>
                 <li className='break-inside-avoid'>
-                    <figure className="relative h-full w-full max-w-[500px] p-6 rounded-xl border border-gray-200">
-                        <blockquote className='border-b pb-4 font-semibold text-lg'>
-                            This product changed my life Lorem ipsum dolor sit.
-                        </blockquote>
+                    <figure className="relative h-full w-full max-w-[500px] p-6 rounded-xl border border-gray-200 bg-orange-50">
+                        <a href="https://www.reddit.com/r/SideProject/comments/1fbrbie/i_made_a_free_landing_page_template_for_microsaas/" target="_blank" rel="noopener noreferrer">
+                            <blockquote className='border-b pb-4 font-semibold text-lg'>
+                                Your landing page is one of the cleanest setups I have seen. Is there a video or a guide on how to set it up on my server and edit it?
+                            </blockquote>
+                        </a>
                         <figcaption>
                             <div className='flex items-center gap-4 mt-4'>
-                                <img src="/users/user-1.png" alt="user" className="inline-block shrink-0 pointer-events-none h-12 w-12 rounded-full ring-2 ring-gray-300" />
+                                <img src="/users/avatar_default_1.png" alt="user" className="inline-block shrink-0 pointer-events-none h-12 w-12 rounded-full" />
                                 <div className="flex flex-col">
-                                    <p className='font-semibold'>John D</p>
-                                    <p className='text-sm'>@JohnD</p>
+                                    <p className='font-semibold'>Reddit user</p>
+                                    <p className='text-sm'>@user</p>
                                 </div>
                             </div>
                         </figcaption>
@@ -60,16 +62,18 @@ function Testimonials() {
                 </li>
 
                 <li className='break-inside-avoid'>
-                    <figure className="relative h-full w-full max-w-[500px] p-6 rounded-xl border border-gray-200">
-                        <blockquote className='border-b pb-4 font-semibold text-lg'>
-                            This product changed my life Lorem ipsum dolor sit.
-                        </blockquote>
+                    <figure className="relative h-full w-full max-w-[500px] p-6 rounded-xl border border-gray-200 bg-indigo-50">
+                        <a href="https://www.reddit.com/r/SideProject/comments/1fbrbie/i_made_a_free_landing_page_template_for_microsaas/" target="_blank" rel="noopener noreferrer">
+                            <blockquote className='border-b pb-4 font-semibold text-lg'>
+                                Nice and simple, good contribution.
+                            </blockquote>
+                        </a>
                         <figcaption>
                             <div className='flex items-center gap-4 mt-4'>
-                                <img src="/users/user-3.png" alt="user" className="inline-block shrink-0 pointer-events-none h-12 w-12 rounded-full ring-2 ring-gray-300" />
+                                <img src="/users/avatar_default_2.webp" alt="user" className="inline-block shrink-0 pointer-events-none h-12 w-12 rounded-full" />
                                 <div className="flex flex-col">
-                                    <p className='font-semibold'>Tracy</p>
-                                    <p className='text-sm'>@tracy</p>
+                                    <p className='font-semibold'>Y0gl3ts</p>
+                                    <p className='text-sm'>@user</p>
                                 </div>
                             </div>
                         </figcaption>
@@ -81,7 +85,22 @@ function Testimonials() {
                 </li>
 
                 <li className='break-inside-avoid'>
-                    <Tweet id={tweets[3].id} />
+                    <figure className="relative h-full w-full max-w-[500px] p-6 rounded-xl border border-gray-200 bg-cyan-50">
+                        <a href="https://www.reddit.com/r/SaaS/comments/1elcw2f/i_made_a_free_landing_page_template_for_microsaas/" target="_blank" rel="noopener noreferrer">
+                            <blockquote className='border-b pb-4 font-semibold text-lg'>
+                                Awesome work! Giving you a star on Github right now!
+                            </blockquote>
+                        </a>
+                        <figcaption>
+                            <div className='flex items-center gap-4 mt-4'>
+                                <img src="/users/avatar_default_4.webp" alt="user" className="inline-block shrink-0 pointer-events-none h-12 w-12 rounded-full" />
+                                <div className="flex flex-col">
+                                    <p className='font-semibold'>HalfMan-HalfAI</p>
+                                    <p className='text-sm'>@user</p>
+                                </div>
+                            </div>
+                        </figcaption>
+                    </figure>
                 </li>
 
                 <li className='break-inside-avoid'>
@@ -89,16 +108,18 @@ function Testimonials() {
                 </li>
 
                 <li className='break-inside-avoid'>
-                    <figure className="relative h-full w-full max-w-[500px] p-6 rounded-xl border border-gray-200">
-                        <blockquote className='border-b pb-4 font-semibold text-lg'>
-                            This product changed my life Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, voluptatibus
-                        </blockquote>
+                    <figure className="relative h-full w-full max-w-[500px] p-6 rounded-xl border border-gray-200 bg-green-50">
+                        <a href="https://www.reddit.com/r/SaaS/comments/1elcw2f/i_made_a_free_landing_page_template_for_microsaas/" target="_blank" rel="noopener noreferrer">
+                            <blockquote className='border-b pb-4 font-semibold text-lg'>
+                                Looks pretty awesome. Now I just need a product to sell.
+                            </blockquote>
+                        </a>
                         <figcaption>
                             <div className='flex items-center gap-4 mt-4'>
-                                <img src="/users/user-2.png" alt="user" className="inline-block shrink-0 pointer-events-none h-12 w-12 rounded-full ring-2 ring-gray-300" />
+                                <img src="/users/avatar_default_1.png" alt="user" className="inline-block shrink-0 pointer-events-none h-12 w-12 rounded-full" />
                                 <div className="flex flex-col">
-                                    <p className='font-semibold'>Jess D</p>
-                                    <p className='text-sm'>@JessD</p>
+                                    <p className='font-semibold'>SpezJailbaitMod</p>
+                                    <p className='text-sm'>@user</p>
                                 </div>
                             </div>
                         </figcaption>
@@ -113,9 +134,9 @@ function Testimonials() {
                 </li>
 
                 <li className='break-inside-avoid cursor-pointer'>
-                    <figure className="relative h-full w-full max-w-[500px] p-6 rounded-xl border border-gray-200 hover:bg-gray-100 transition-all duration-300 ease-in-out transform hover:rotate-2 hover:scale-105 hover:shadow-lg">
+                    <figure className="relative h-full w-full max-w-[500px] p-6 rounded-xl border border-gray-200 bg-gradient-to-tr from-blue-200 via-indigo-200 to-teal-200 transition-all duration-300 ease-in-out transform hover:rotate-2 hover:scale-105 hover:shadow-lg">
                         <blockquote className='border-b pb-4 font-semibold text-lg'>
-                            This could be you. Try it for free today! Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+                            This could be you. Try it for free today! Use this as a template, clone to your local, npm install then off you go🚀
                         </blockquote>
                         <figcaption>
                             <div className='flex items-center gap-4 mt-4'>

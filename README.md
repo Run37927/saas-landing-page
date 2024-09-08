@@ -2,7 +2,6 @@
 
 ![Project demo](/public/demo.gif)
 
-
 ## Project Structure
 
 The main components of the landing page are:
@@ -23,9 +22,10 @@ The main components of the landing page are:
 To run this project locally:
 
 1. Click on the green button top right corner `Use this template`
-2. Install dependencies with `npm install`
-3. Start the development server with `npm run dev`
-4. Open `localhost:3000`
+2. `git clone` to your local
+3. Install dependencies with `npm install`
+4. Start the development server with `npm run dev`
+5. Open `localhost:3000`
 
 ## Stack
 

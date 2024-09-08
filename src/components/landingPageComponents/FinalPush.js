@@ -6,7 +6,7 @@ import { buttonVariants } from "../ui/button";
 
 function FinalPush() {
     return (
-        <section className='py-20 pb-32 px-5' id='contact'>
+        <section className='pt-40 pb-32 px-5' id='contact'>
             <div className='flex flex-col md:flex-row max-w-5xl mx-auto px-14 py-10 gap-10 bg-gradient-to-br from-sky-200 via-sky-300 to-sky-400 rounded-3xl'>
                 <div className="space-y-6">
                     <h2 className='relative tracking-tight font-bold text-3xl md:text-4xl'>

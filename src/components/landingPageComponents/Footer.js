@@ -4,7 +4,7 @@ import Link from 'next/link'
 function Footer() {
     return (
         <footer className='border-t border-gray-200'>
-            <MaxWidthWrapper className='py-10 flex flex-col items-center justify-center md:items-start md:justify-between md:flex-row'>
+            <MaxWidthWrapper className='py-14 pb-20 flex flex-col items-center justify-center md:items-start md:justify-between md:flex-row'>
                 <div className='max-w-[16rem] flex flex-col space-y-4 items-center justify-center md:items-start md:justify-normal'>
                     <Link href='/' className='flex items-center z-40 font-bold text-lg'>
                         YouLogo
