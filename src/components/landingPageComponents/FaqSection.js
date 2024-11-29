@@ -1,7 +1,4 @@
 'use client'
-import { cn } from '@/lib/utils';
-import { ChevronDown } from 'lucide-react';
-import React, { useState } from 'react'
 import {
     Accordion,
     AccordionItem,
@@ -9,25 +6,6 @@ import {
     AccordionContent,
 } from '@/components/ui/accordion';
 import { ChevronRight } from 'lucide-react';
-
-const FAQItem = ({ question, answer }) => {
-    const [isOpen, setIsOpen] = useState(false);
-
-    return (
-        <div className="bg-slate-100/50 p-4 px-7 rounded-lg hover:shadow">
-            <div className="flex justify-between items-center cursor-pointer text-gray-700" onClick={() => {
-                setIsOpen(!isOpen);
-            }}>
-                <h2 className={`text-xl font-semibold ${isOpen ? 'text-black' : ''}`}>{question}</h2>
-                <ChevronDown className={cn("h-4 w-4 transition-all text-muted-foreground", {
-                    "-rotate-180": isOpen
-                })} />
-            </div>
-            {isOpen && <p className='mt-3 leading-relaxed'>{answer}</p>}
-        </div>
-    );
-};
-
 
 function FaqSection() {
     const faqs = [
