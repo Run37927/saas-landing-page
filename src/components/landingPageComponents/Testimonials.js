@@ -173,7 +173,7 @@ function Testimonials() {
                         </a>
                         <figcaption>
                             <div className='flex items-center gap-4 mt-4'>
-                                <img src="/users/user-5.jpg" alt="user" className="inline-block shrink-0 pointer-events-none object-cover h-12 w-12 rounded-full ring-2 ring-gray-300" />
+                                <img src="/users/john.png" alt="user" className="inline-block shrink-0 pointer-events-none object-cover h-12 w-12 rounded-full ring-2 ring-gray-300" />
                                 <div className="flex flex-col">
                                     <p className='font-semibold'>Your name</p>
                                     <p className='text-sm'>@You</p>
