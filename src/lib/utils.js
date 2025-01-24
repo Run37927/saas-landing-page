@@ -27,6 +27,9 @@ export function constructMetadata({
     openGraph: {
       title,
       description,
+      siteName: "SaaS Landing Page",
+      url: "https://saas-landing-page-pied-seven.vercel.app/",
+      type: "website",
       images: [{ url: image }]
     },
     twitter: {
@@ -36,6 +39,6 @@ export function constructMetadata({
       images: [image],
       creator: "@yourhandle",
     },
-    metadataBase: new URL('https://yourapp.com')
+    metadataBase: new URL('https://saas-landing-page-pied-seven.vercel.app/')
   };
 }
