@@ -86,7 +86,7 @@ function BeforeAfter() {
                     </div>
 
                     <div className='flex mx-auto items-center justify-center gap-4 my-6'>
-                        <img src="/users/user-1.png" alt="user" className="inline-block pointer-events-none h-12 w-12 rounded-full ring-2 ring-gray-300" />
+                        <img src="/users/john.png" alt="user" className="inline-block pointer-events-none object-cover h-12 w-12 rounded-full ring-2 ring-gray-300" />
                         <div className="flex flex-col">
                             <p className='font-semibold'>John D</p>
                             <p className='text-sm'>User One</p>
