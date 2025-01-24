@@ -35,7 +35,7 @@ function Testimonials() {
 
             <ul className='mx-auto md:columns-2 lg:columns-3 space-y-4 md:space-y-6 md:gap-6'>
                 <li className='break-inside-avoid'>
-                    <figure className="relative h-full w-full max-w-[500px] p-6 rounded-xl border border-gray-200 bg-orange-50">
+                    <figure className="relative h-full w-full max-w-[500px] p-6 rounded-xl border border-orange-200 bg-orange-50">
                         <a href="https://www.reddit.com/r/SideProject/comments/1fbrbie/i_made_a_free_landing_page_template_for_microsaas/" target="_blank" rel="noopener noreferrer">
                             <blockquote className='border-b pb-4 font-semibold text-lg'>
                                 Your landing page is one of the cleanest setups I have seen. Is there a video or a guide on how to set it up on my server and edit it?
@@ -62,7 +62,7 @@ function Testimonials() {
                 </li>
 
                 <li className='break-inside-avoid'>
-                    <figure className="relative h-full w-full max-w-[500px] p-6 rounded-xl border border-gray-200 bg-indigo-50">
+                    <figure className="relative h-full w-full max-w-[500px] p-6 rounded-xl border border-indigo-200 bg-indigo-50">
                         <a href="https://www.reddit.com/r/SideProject/comments/1fbrbie/comment/lm456ij/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button" target="_blank" rel="noopener noreferrer">
                             <blockquote className='border-b pb-4 font-semibold text-lg'>
                                 Nice and simple, good contribution.
@@ -85,7 +85,7 @@ function Testimonials() {
                 </li>
 
                 <li className='break-inside-avoid'>
-                    <figure className="relative h-full w-full max-w-[500px] p-6 rounded-xl border border-gray-200 bg-cyan-50">
+                    <figure className="relative h-full w-full max-w-[500px] p-6 rounded-xl border border-cyan-200 bg-cyan-50">
                         <a href="https://www.reddit.com/r/SaaS/comments/1elcw2f/comment/ljroul3/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button" target="_blank" rel="noopener noreferrer">
                             <blockquote className='border-b pb-4 font-semibold text-lg'>
                                 Awesome work! Giving you a star on Github right now!
@@ -108,7 +108,7 @@ function Testimonials() {
                 </li>
 
                 <li className='break-inside-avoid'>
-                    <figure className="relative h-full w-full max-w-[500px] p-6 rounded-xl border border-gray-200 bg-green-50">
+                    <figure className="relative h-full w-full max-w-[500px] p-6 rounded-xl border border-green-200 bg-green-50">
                         <a href="https://www.reddit.com/r/SaaS/comments/1elcw2f/comment/lgsqe3c/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button" target="_blank" rel="noopener noreferrer">
                             <blockquote className='border-b pb-4 font-semibold text-lg'>
                                 Looks pretty awesome. Now I just need a product to sell.
@@ -127,10 +127,47 @@ function Testimonials() {
                 </li>
 
                 <li className='break-inside-avoid'>
+                    <figure className="relative h-full w-full max-w-[500px] p-6 rounded-xl border border-pink-200 bg-pink-50">
+                        <a href="https://www.reddit.com/r/SaaS/comments/1elcw2f/comment/lye1tde/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button" target="_blank" rel="noopener noreferrer">
+                            <blockquote className='border-b pb-4 font-semibold text-lg'>
+                                This is exactly what I need, minus a few things! Thanks a bunch dude :D!
+                            </blockquote>
+                        </a>
+                        <figcaption>
+                            <div className='flex items-center gap-4 mt-4'>
+                                <img src="/users/avatar_default_5.webp" alt="user" className="inline-block shrink-0 pointer-events-none h-12 w-12 rounded-full" />
+                                <div className="flex flex-col">
+                                    <p className='font-semibold'>Traditional_Web_7856</p>
+                                    <p className='text-sm'>@user</p>
+                                </div>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </li>
+
+                <li className='break-inside-avoid'>
                     <Tweet id={tweets[5].id} />
                 </li>
+
                 <li className='break-inside-avoid'>
-                    <Tweet id={tweets[6].id} />
+                    <figure className="relative h-full w-full max-w-[500px] p-6 rounded-xl border border-amber-200 bg-amber-50">
+                        <a href="https://www.reddit.com/r/SaaS/comments/1elcw2f/comment/lgy3df3/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button" target="_blank" rel="noopener noreferrer">
+                            <blockquote className='border-b pb-4 font-semibold text-lg'>
+                                Nice template.
+                                <br />
+                                This would be a great fit for a google ads landing format
+                            </blockquote>
+                        </a>
+                        <figcaption>
+                            <div className='flex items-center gap-4 mt-4'>
+                                <img src="/users/avatar_default_6.webp" alt="user" className="inline-block shrink-0 pointer-events-none h-12 w-12 rounded-full" />
+                                <div className="flex flex-col">
+                                    <p className='font-semibold'>SaaSNihal</p>
+                                    <p className='text-sm'>@user</p>
+                                </div>
+                            </div>
+                        </figcaption>
+                    </figure>
                 </li>
 
                 <li className='break-inside-avoid cursor-pointer'>
