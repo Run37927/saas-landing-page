@@ -63,7 +63,7 @@ function Testimonials() {
 
                 <li className='break-inside-avoid'>
                     <figure className="relative h-full w-full max-w-[500px] p-6 rounded-xl border border-gray-200 bg-indigo-50">
-                        <a href="https://www.reddit.com/r/SideProject/comments/1fbrbie/i_made_a_free_landing_page_template_for_microsaas/" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.reddit.com/r/SideProject/comments/1fbrbie/comment/lm456ij/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button" target="_blank" rel="noopener noreferrer">
                             <blockquote className='border-b pb-4 font-semibold text-lg'>
                                 Nice and simple, good contribution.
                             </blockquote>
@@ -86,7 +86,7 @@ function Testimonials() {
 
                 <li className='break-inside-avoid'>
                     <figure className="relative h-full w-full max-w-[500px] p-6 rounded-xl border border-gray-200 bg-cyan-50">
-                        <a href="https://www.reddit.com/r/SaaS/comments/1elcw2f/i_made_a_free_landing_page_template_for_microsaas/" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.reddit.com/r/SaaS/comments/1elcw2f/comment/ljroul3/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button" target="_blank" rel="noopener noreferrer">
                             <blockquote className='border-b pb-4 font-semibold text-lg'>
                                 Awesome work! Giving you a star on Github right now!
                             </blockquote>
@@ -109,7 +109,7 @@ function Testimonials() {
 
                 <li className='break-inside-avoid'>
                     <figure className="relative h-full w-full max-w-[500px] p-6 rounded-xl border border-gray-200 bg-green-50">
-                        <a href="https://www.reddit.com/r/SaaS/comments/1elcw2f/i_made_a_free_landing_page_template_for_microsaas/" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.reddit.com/r/SaaS/comments/1elcw2f/comment/lgsqe3c/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button" target="_blank" rel="noopener noreferrer">
                             <blockquote className='border-b pb-4 font-semibold text-lg'>
                                 Looks pretty awesome. Now I just need a product to sell.
                             </blockquote>
